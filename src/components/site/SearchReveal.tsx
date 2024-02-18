@@ -1,12 +1,12 @@
 import { SearchResult } from "@/types/SearchResult";
 
 type Props = {
-    results: SearchResult | any;
+    results: SearchResult;
 }
 
 export const SearchReveal = ( { results } : Props )=> {
 
-    results = { person: {id: 1, name: 'Hiago de  Oliveira'}, personMatched: {id: 2, name: 'Cláudia de Freitas'}};
+    //results = { person: {id: 1, name: 'Hiago de  Oliveira'}, personMatched: {id: 2, name: 'Cláudia de Freitas'}};
 
     return (
         <div>
